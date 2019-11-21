@@ -26,8 +26,7 @@ def using_concat(arg1, arg2)
   arg1.concat(arg2)
 end
 
-using_insert takes in two arguments, an array and a new element to be added to the array. it uses the insert method to a
-dd the new element to the 4th index of the array
-using_insert increases the length of the array
-
+def using_insert(array, element)
+  array.insert(4, element)
+end
 using_uniq takes in an argument of an array and uses the uniq method to remove any duplicate items
