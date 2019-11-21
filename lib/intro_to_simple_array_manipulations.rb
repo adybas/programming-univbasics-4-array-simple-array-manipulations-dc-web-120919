@@ -30,6 +30,6 @@ def using_insert(array, element)
   array.insert(4, element)
 end
 
-def using_uniq(array) takes in an argument of an array and uses the uniq method to remove any duplicate items
+def using_uniq(array)
   array.uniq
 end
